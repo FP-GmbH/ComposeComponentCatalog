@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_top_bar_title">Components Preview</string>
+    <string name="placeholder_search">Search</string>
+    <string name="content_description_back_button">Navigate back</string>
+</resources>
