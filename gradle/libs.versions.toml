@@ -12,6 +12,9 @@ jetbrainsKotlinJvm = "2.2.0"
 ksp = "2.2.0-2.0.2"
 kotlinPoet = "2.2.0"
 
+group-id = "de.fup.composecomponentcatalog"
+version = "1.0.7"
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
