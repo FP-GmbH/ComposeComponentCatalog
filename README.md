@@ -1,7 +1,7 @@
 ComposeComponentCatalog
 ========
 
-[![](https://jitpack.io/v/FP-GmbH/ComposeComponentCatalog.svg)](https://jitpack.io/#FP-GmbH/ProxyGen)
+[![](https://jitpack.io/v/FP-GmbH/ComposeComponentCatalog.svg)](https://jitpack.io/#FP-GmbH/ComposeComponentCatalog)
 
 ComposeComponentCatalog is a lightweight library that helps you create and maintain a visual catalog of your Jetpack Compose UI components.
 It uses Kotlin Symbol Processing (KSP) to generate a catalog of your annotated components that you can easily display within your app.
@@ -33,7 +33,7 @@ How to use?
 
 Annotate your composable function with `@ComponentCatalogItem`.
 
-The annotation is intended for use with composable preview functions. The only technical limitation is that the annotated function can be called without passing arguments.
+The annotation is intended for use with composable preview functions. The only technical limitation is that the annotated function is public and can be called without passing arguments.
 Therefore, it can also be used for non-preview functions.
 
 ```
@@ -71,7 +71,7 @@ If you want a predefined catalog add the ui dependency to your module and add `C
 
 ```
 dependencies {
-    implementation("com.github.FP-GmbH.ComponentCatalog:ui:{latestVersion}")
+    implementation("com.github.FP-GmbH.ComposeComponentCatalog:ui:{latestVersion}")
 }
 ```
 
